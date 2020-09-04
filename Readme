@@ -10,7 +10,7 @@ The code is a simple implementation of the Linux/Unix Shell with the help of Sys
 
 The shell supports the I/O Redirection on both STDIN and STDOUT,​ and Pipe(between two commands) functionalites. It can handle Unix Signals: SIGINT and SIGTERM.Two commands can be run parallel too with the syntax as COMMAND1 ; COMMAND2.
 
-The directory cotains a file called Tested_Ins.txt which indicated the vaious types and combinations of commands tested and produced the expected output successfully. 
+The directory cotains a file called Tested_Ins.txt which indicates the vaious types and combinations of commands tested and produced the expected output successfully. 
 
 To run this code simply run the makefile present in the directory. If unable to run, then the commands mentioned below can be run in the shell:
 
