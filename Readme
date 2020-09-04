@@ -1,0 +1,25 @@
+The code is a simple implementation of the Linux/Unix Shell with the help of System Calls. The C Programming Language is used to implement the functionalities. The baisc commands imlemented are as follows:
+1. checkcpupercentage <pid>
+2. checkresidentmemory <pid>
+3. listFiles
+4. sortFile [file]
+5. exit
+6. cat [filename]
+7. grep [string]
+8. executeCommands commandsFile.txt
+
+The shell supports the I/O Redirection on both STDIN and STDOUT,​ and Pipe(between two commands) functionalites. It can handle Unix Signals: SIGINT and SIGTERM.Two commands can be run parallel too with the syntax as COMMAND1 ; COMMAND2.
+
+The directory cotains a file called Tested_Ins.txt which indicated the vaious types and combinations of commands tested and produced the expected output successfully. 
+
+To run this code simply run the makefile present in the directory. If unable to run, then the commands mentioned below can be run in the shell:
+
+$ gcc myShell.c -o a( or $ clang myShell.c -o a)
+$ ./a
+
+
+The make file has three sections namely all, exec and clean. To run the program using makefile follow the steps below.
+
+1. To compile enter the command {$ make or $ make all}
+2. To run the code enter the command {$ make exec }
+3. To clean the object files run the command { $ make clean }

@@ -1,0 +1,28 @@
+cat output.txt | grep O >> newout.txt
+checkresidentmemory <pid> >> newout.txt
+checkcpupercentage <pid> >> ins.txt ; cat ins.txt | grep us
+cat ins.txt | grep 4
+cat newout.txt | grep us
+checkcpupercentage <pid> >> newout.txt ; cat newout.txt | grep us
+checkcpupercentage <pid> >> bt.txt ; cat bt.txt | grep us
+checkcpupercentage <pid> >> longname.txt ; cat longname.txt | grep us
+checkcpupercentage <pid> > newout.txt ; cat newout.txt | grep us
+sortFile files.txt >> files.txt
+sortFile files.txt | grep test
+sortFile files.txt | grep test >> files.txt
+grep us < newout.txt
+grep us < newout.txt > newout.txt ( This produced a warning stating: "grep: input file '(standard input)' is also the output ")
+grep us < newout.txt >> newout1.txt
+checkcpupercentage <pid> >> newout.txt ; cat newout.txt >> newout1.txt
+kill -15 <pid>(PID of myShell)
+executeCommands ins.txt
+exit
+checkcpupercentage <pid> | grep user > output.txt ; checkresidentmemory <pid> | cat files.txt > output.txt
+cat output.txt ; exit
+exit ; listFiles
+exit ; cat ins.txt
+cat files.txt | exit
+exit ; exit
+cat < ins.txt
+grep < ins.txt
+exit | listFiles
