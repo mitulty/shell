@@ -1,4 +1,4 @@
-The code is a simple implementation of the Linux/Unix Shell with the help of System Calls. The C Programming Language is used to implement the functionalities. The baisc commands imlemented are as follows:
+The project is a simple implementation of the Linux/Unix Shell with the help of C System Calls. The C Programming Language is used to implement the functionalities. The baisc commands imlemented are as follows:
 1. checkcpupercentage <pid>
 2. checkresidentmemory <pid>
 3. listFiles
